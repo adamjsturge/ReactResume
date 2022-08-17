@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Home from './pages/Home';
+import Home from './pages/home';
 import parseRoute from './lib/parse-route';
 
 export default class App extends React.Component<any, any> {
@@ -10,7 +10,6 @@ export default class App extends React.Component<any, any> {
     };
     // this.functionName = this.functionName.bind(this);
   }
-
 
   componentDidMount() {
     window.addEventListener('hashchange', () => {
